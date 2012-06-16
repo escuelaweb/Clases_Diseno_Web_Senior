@@ -49,10 +49,25 @@
 	.titulo_gigante {
 		font-size: 100px;
 		font-variant: small-caps;
+		text-transform:capitalize;
 	}
 	.parrafo_grande {
-		font-size: 32px;
+		/*font-size: 32px;*/
 	}
+
+	.alineaciones {
+		/* 
+		Podemos Usar unidades de: em, % y px 
+		letter-spacing, word-spacing, line-height
+		*/
+
+		letter-spacing: -1px; /* Valores negativos para hacer la distancia menor a la que trae por Default -10px */ 
+		word-spacing: 10px;
+		line-height: 1.5em; 
+		font-size:24px;
+		text-align: right; /* left, right, center, justify */
+	}
+
 	</style>
 </head>
 <body>
@@ -85,7 +100,7 @@
 		Ejercicio
 	</h1>
 
-	<p class="parrafo_grande">
+	<p class="parrafo_grande alineaciones">
 		Hacer uso de las etiquetas p, a, span, pre y darle estilos utilizando todas las propiedades de Fuentes o Tipografia que se encuentran en la guia que envie por el Grupo. Pagina 22 y 23
 	</p>
 
