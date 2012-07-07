@@ -1,0 +1,95 @@
+/* Botones */
+
+.boton {
+	display:block; /* para que pueda tomar ancho y alto (propiedades de box) */
+	background-color: #757575;
+	border:#6E6C6C 1px solid;
+	border-top:#949494 1px solid;
+	color: #F1F1F1;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+
+	/* Boton de ancho Fijo */
+	width: 200px;
+	text-align: center;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+
+.boton:hover {
+	border: #3D3D3D 1px solid;
+	background-color: #525252;
+}
+.boton:active {
+	border: #000000 1px solid;
+	background-color: #272727;
+}
+
+.boton.css3 {
+	
+	-webkit-transition: all 500ms ease;
+	-moz-transition   : all 500ms ease;
+	-ms-transition    : all 500ms ease;
+	-o-transition     : all 500ms ease;
+	transition        : all 500ms ease;
+
+	border-radius        : 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius   : 10px;
+	-o-border-radius     : 10px;
+
+	box-shadow        : 0px 0px 3px 0px rgba(0,0,0,1);
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,1);
+	-moz-box-shadow   : 0px 0px 3px 0px rgba(0,0,0,1);
+	-0-box-shadow     : 0px 0px 3px 0px rgba(0,0,0,1);
+
+	text-shadow        : 0 -1px 0 rgba(0,0,0,0.7);
+	-webkit-text-shadow: 0 -1px 0 rgba(0,0,0,0.7);
+	-moz-text-shadow   : 0 -1px 0 rgba(0,0,0,0.7);
+	-o-text-shadow     : 0 -1px 0 rgba(0,0,0,0.7);
+
+	background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.3)), color-stop(100%,rgba(255,255,255,0)));
+	background-image: -webkit-linear-gradient(top,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%);
+	background-image: -o-linear-gradient(top,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%);
+	background-image: -ms-linear-gradient(top,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%);
+	background-image: linear-gradient(to bottom,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dffffff', endColorstr='#00ffffff',GradientType=0 );
+
+}
+
+.boton.css3.amarillo {
+	background-color: #E1DF0D;
+	border:#B6AD03 1px solid;
+	color: #393939;
+	text-shadow        : 0 -1px 0 rgba(255,255,255,0.7);
+	-webkit-text-shadow: 0 -1px 0 rgba(255,255,255,0.7);
+	-moz-text-shadow   : 0 -1px 0 rgba(255,255,255,0.7);
+	-o-text-shadow     : 0 -1px 0 rgba(255,255,255,0.7);
+
+}
+.boton.css3.amarillo:hover {
+	background-color: #CECC04;
+	border:#B6AD03 1px solid;
+}
+.boton.css3.amarillo:active {
+	background-color: #ABB100;
+	border:#B6AD03 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

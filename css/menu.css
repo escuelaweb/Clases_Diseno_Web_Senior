@@ -1,0 +1,7 @@
+/* Menu */
+
+.menu {
+	list-style: none; /* elimina los bullets */
+	height: 50px;
+	border: #8F8F8F 1px solid;
+}
