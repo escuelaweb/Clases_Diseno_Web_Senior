@@ -79,11 +79,28 @@
 }
 
 
-
-
-
-
-
+.boton.sprite {
+	display: block;
+	width:100px;
+	height: 30px;
+	padding: 0;
+	text-indent: -9999em;
+	background-color: transparent;
+	border: none;
+	background: url(../img/leermas2.jpg);
+}
+.boton.sprite:hover {
+	background-position-y: -30px;
+}
+.boton.sprite:active {
+	background-position-y: -60px;
+}
+.boton.sprite.home {
+	background-position-x: 0px;
+}
+.boton.sprite.calabazas {
+	background-position-x: -100px;
+}
 
 
 
